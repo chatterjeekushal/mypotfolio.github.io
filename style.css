@@ -1,0 +1,346 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    background-color: #c5c5c598;
+}
+
+
+header{
+
+    width:100%;
+    background: #c5c5c598;
+    
+    display: flex;
+    
+    align-items: center;
+    height:15vh;
+}
+
+nav{
+    
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+nav ul{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    list-style: none;
+    padding-left: 0rem;
+
+    
+
+    
+}
+
+
+
+nav ul li{
+
+    margin-left: 3rem;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in;    
+}
+
+nav ul li :hover{
+
+    border:1px solid  #aca9a998;
+    border-bottom-color: black;
+
+    
+}
+
+nav ul li a{
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.767)
+}
+
+nav ul li a:hover{
+
+    color:rgba(0, 0, 0, 0.767);
+    
+}
+
+.navbtn{
+
+    
+    font-size: 1.5rem;
+    background:rgb(22, 22, 22);
+    color:white;
+    padding:0.7rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    
+
+}
+
+.resbtn{
+
+    font-size: 1.5rem;
+    background:rgb(22, 22, 22);
+    color:white;
+    padding:0.7rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+
+}
+
+.nighticon img{
+
+    width:100%;
+    border:none;
+    color:black;
+    
+}
+
+.nighticon{
+
+    border:none;
+    background: none;
+    cursor: pointer;
+    color: black;
+}
+
+.brand{
+
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+
+/* popup coding start*/
+
+
+.popupwraper{
+
+    width:100%;
+    height:100vh;
+    background-color: #6865657e;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position: fixed;
+    
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 100;
+}
+
+.popupwraper .card{
+
+    width:60%;
+    height: auto;
+}
+
+.close{
+    border:none;
+    position:absolute;
+    right:1.5rem;
+    top:1rem;
+}
+
+.open{
+
+    opacity: 1;
+}
+
+
+nav span img{
+
+    
+    
+    border-radius: 50px;    
+}
+
+nav span{
+    
+    width:5%;
+
+}
+
+nav .brand{
+
+    display:flex;
+}
+
+
+.form-check{
+    
+    margin-left: 3rem;
+    
+}
+
+/* form varivication css*/
+
+.display{
+
+display: none;
+
+}
+
+/*responsiv navbar*/
+
+
+.resclose{
+
+    width:10%;
+    margin-top: 1rem;
+    position: absolute;
+    z-index: 23;
+    left:85%;
+    
+
+}
+.resclose img{
+    width:100%;
+}
+
+.hambargar{
+    position: absolute;
+    left:82%;
+    
+}
+
+.resheader{
+    transition: all 0.5s ease;
+}
+
+@media (max-width:768px) and (min-width:768px) {
+    
+    .brand h2{
+        font-size: 2.5rem;
+        
+    }
+
+    .nighticon {
+        width:7%;
+    }
+    
+}
+
+/* main coding styart*/
+
+.maintext{
+    
+    width:50%;
+    height: 60vh;
+    
+}
+
+span{
+    width:4%;
+}
+
+.maintext h1{
+
+    
+    margin-left: 3rem;
+    
+    
+}
+
+.maintext .arrow{
+
+    position: relative;
+    left:80%;
+    top:3.75rem;
+    transform:rotate(98deg);
+
+}
+
+.maintext .line{
+
+    position: relative;
+    top:7%;
+}
+
+ .pencilmark{
+
+    
+    width: 10%;
+    margin-left: 18rem;
+    
+    mix-blend-mode:darken;
+    
+    
+    
+}
+
+
+.maintext p{
+
+line-height:1.6rem;
+text-align: justify;
+
+
+width:90%;
+margin-left: 2rem;
+}
+
+.mainimg img{
+    width:100%;
+    height: 75vh;
+
+}
+
+.mainimg{
+    position: absolute;
+    left:55%;
+    top:18%;
+}
+.hi{
+    width:30%;
+    height: 75vh;
+    border:3px solid rgb(58, 8, 8);
+
+}
+.main{
+    padding-top: 2rem;
+    background:#9594947e;
+    padding-bottom: 2rem;
+    
+}
+
+.mainmedia{
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    height:30vh;
+    
+    position: relative;
+    right: 5%;
+    top:70%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+

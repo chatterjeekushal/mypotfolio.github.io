@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>potfolio pro</title>
+  <!-- link css -->
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="output.css">
+  
+
+  <!--add boots trap css-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--add tailwin css-->
+  
+  
+
+</head>
+
+<body>
+
+
+
+  <div class="resheader absolute bg-red-900 h-[100%] w-72 lg:hidden hidden" >
+
+<div class="resclose">
+<img src="./image/cancel(1).png" alt="">
+
+</div>
+
+    <div class="brand mt-20">
+
+      <h2 class="text-3xl lg:text-3xl ml-4">kushal,s potfolio</h2>
+
+    </div>
+
+
+    <ul class=" resul space-y-8  capitalize  flex-col justify-center items-center border-blue-700  cursor-pointer hover:bg-orange-800">
+      <li></li>
+      <li class="text-2xl ml-10 "><a href="https://tailwindcss.com/docs/installation/play-cdn" class="no-underline text-white hover:text-black">home</a></li>
+      <li class="text-2xl ml-10"><a href="" class="no-underline text-white ">about</a></li>
+      <li class="text-2xl  ml-10"><a href="" class="no-underline text-white ">servise</a></li>
+      <li class="text-2xl ml-10"><a class="no-underline text-white hover:text-black" href="" >project</a></li>
+
+ 
+
+      <button class="resbtn" >contact me</button>
+    </ul>
+
+    <div class="logo flex justify-around mt-24 ">
+
+      <img src="./image/twitter.png" alt="">
+      <img src="./image/instagram.png" alt="">
+      <img src="./image/facebook.png" alt="">
+
+    </div>
+
+  </div>
+
+
+  <!--nav bar coding start-->
+
+  <header>
+
+
+    <div class="hambargar lg:hidden">
+
+<img src="./image/hamburger.png" alt="">
+
+    </div>
+
+
+    <nav class="">
+
+      <span class="cursor-pointer w-10 mr-4 ml-4"><img src="./image/my logo1.jpeg" alt=""></span>
+
+      <div class="brand">
+
+        <h2 class="text-2xl lg:text-3xl">kushal,s potfolio</h2>
+
+      </div>
+
+      <ul class="hidden lg:flex">
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">servise</a></li>
+        <li><a href="">project</a></li>
+
+
+
+        <button class="navbtn" >contact me</button>
+      </ul>
+
+
+      <div class="nighticon ml-4">
+
+        <img src="./image/nighticon.png" alt="">
+      </div>
+
+
+    </nav>
+  </header>
+
+
+  <div class="popupwraper popres">
+
+
+    <div class="card rounded-xl">
+
+      <button class="close closer"><img src="./image/cancel(1).png" alt=""></button>
+
+
+
+
+
+
+      <form class="" name="myform" onsubmit="return chak()" action="https://formspree.io/f/xgejkdan"
+      method="POST">
+        <div class="px-5 py-4">
+          <label for="text" class="form-label font-bold">Enter your name:</label>
+          <input type="text" class="form-control" id="name" placeholder="enter your name" name="user" >
+
+
+
+          <div class="alert alert-danger d-flex align-items-center d-none my-3 h-11 " role="alert" id="useralart">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
+              <use xlink:href="#exclamation-triangle-fill" />
+            </svg>
+            <div>
+              ** Plese Enter your user name.
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+
+        <div class="mb-3 px-5 mt-2">
+          <label for="exampleInputPassword1" class="form-label font-bold">Email address:</label>
+          <input type="email" class="form-control" id="exampleInputPassword1" placeholder="enter  your email"
+            name="email">
+
+
+
+
+
+
+          <div class="alert alert-danger d-flex align-items-center d-none my-3 h-11 " role="alert" id="emailalert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
+              <use xlink:href="#exclamation-triangle-fill" />
+            </svg>
+            <div>
+              ** Plese Enter your valid email id.
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="mb-3 px-5 pt-5 pb-3">
+          <label for="exampleInputPassword1" class="form-label font-bold">Enter your profasan:</label>
+
+          <select class="form-select" id="validationCustom04" required>
+            <option value="profasan" name="option" required>select your profasan</option>
+            <option>Web developer</option>
+            <option>Photo Editor</option>
+            <option>Video Editor</option>
+            <option>AI Creater</option>
+            <option>Backend Developer</option>
+          </select>
+
+
+
+          <div class="alert alert-danger d-flex align-items-center d-none my-3 h-11 " role="alert" id="profasan">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
+              <use xlink:href="#exclamation-triangle-fill" />
+            </svg>
+            <div>
+              ** Plese Select your profasan.
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+
+
+
+        <div class="form-check px-24 pt-0">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" name="chakbox" >
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+        
+
+
+
+          <div class="alert alert-danger d-flex align-items-center d-none my-3 h-11 " role="alert" id="chakalert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
+              <use xlink:href="#exclamation-triangle-fill" />
+            </svg>
+            <div>
+              ** Plese agrry all policy.
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+        <button type="submit" class="btn btn-primary bg-blue-800 mx-12 mt-3  mb-24 hover:bg-black">Submit</button>
+      </form>
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+<section class="main lg:flex justify-around items-center block">
+
+   
+
+  <div class="maintext">
+
+    <span> <img class="arrow" src="./image/down-arrow.png" alt=""></span>
+
+    <h1 class="text-4xl">Kushal Chatterjee  </h1>
+
+    
+    <span><img class="line pt-4 " src="./image/line.png" alt=""></span> 
+    <p> <b style="background-color:rgba(212, 102, 12, 0.593);">Frontend Developer</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repudiandae asperiores eaque nam fugit eius consectetur, modi fugiat vero minus assumenda nemo dolore quia harum architecto hic in, quo maiores nesciunt commodi suscipit explicabo nostrum </p>
+
+    
+
+    <span><img class="pencilmark"src="./image/pancilziczac.jpg" alt=""></span>
+    <span><img src="./image/square.png" alt=""></span>
+  </div>
+
+
+
+
+  <div class="hi">
+
+  <div class="mainimg">
+
+    
+
+<img src="./image/homeimg.jpeg" class=""alt="">
+
+  </div>
+
+</div>
+
+
+
+
+<div class="mainmedia cursor-pointer w-10 lg:w-8 ">
+
+  <img class="cursor-pointer" src="./image/instagram.png" alt="">
+  <img  src="./image/twitter.png" alt="">
+  <img  src="./image/facebook.png" alt="">
+
+</div>
+
+
+
+
+
+</section>
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="./app.js"></script>
+
+  
+
+
+</body>
+
+
+<script>
+
+
+
+
+
+</script>
+
+
+
+
+</html>
