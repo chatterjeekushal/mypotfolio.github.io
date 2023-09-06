@@ -345,6 +345,7 @@ margin-left: 2rem;
     right: 5%;
     top:70%;
 
+
     
 
 }
@@ -413,15 +414,17 @@ width:50%;
 
 .mainmedia{
     position: relative;
-    left:9rem;
+    left:8rem;
     bottom:11rem;
     cursor: pointer;
+    
 }
 
 .pencilmark{
     
     position: relative;
     right:3rem;
+    
 }
 
 }
