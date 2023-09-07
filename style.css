@@ -428,10 +428,10 @@ margin-left: 2rem;
 .mainimg img{
     
     height: 45vh;
-    width:100%;
+    width:95%;
     position: absolute;
     right:10rem;
-    top:-5.5rem;
+    top:-7.8rem;
 }
 
 .hi{
@@ -439,16 +439,16 @@ margin-left: 2rem;
     position: relative;
     top:10rem;
 right:0;
-height:52vh;
-width:50%;
+height:46vh;
+width:55%;
 
 
 }
 
 .mainmedia{
     position: relative;
-    left:8rem;
-    bottom:11rem;
+    left:9rem;
+    bottom:9rem;
     cursor: pointer;
     
 }
