@@ -24,6 +24,7 @@
 
 <body>
 
+  <div class="resdiv fixed"> 
 
 
   <div class="resheader absolute bg-red-900  w-72 lg:hidden hidden" >
@@ -62,6 +63,7 @@
 
   </div>
 
+</div>
 
   <!--nav bar coding start-->
 
@@ -256,7 +258,7 @@
 
     
     <span class="spline"><img class="line pt-4  " src="./image/line.png" alt=""></span> 
-    <p class=""> <b style="background-color:rgba(212, 102, 12, 0.593);">Frontend Developer</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repudiandae asperiores eaque nam fugit eius consectetur, modi fugiat vero minus assumenda nemo dolore quia harum architecto hic in, quo maiores nesciunt commodi suscipit explicabo nostrum </p>
+    <p class="" > <span id="element"  class="font-bold text-(0.5rem)"style="background-color:rgba(212, 102, 12, 0.593);">Frontend Developer</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repudiandae asperiores eaque nam fugit eius consectetur, modi fugiat vero minus assumenda nemo dolore quia harum architecto hic in, quo maiores nesciunt commodi suscipit explicabo nostrum </p>
 
     
 
@@ -267,13 +269,13 @@
 
 
 
-  <div class="hi">
+  <div class="hi mt-2">
 
-  <div class="mainimg relative top-28 lg:absolute">
+  <div class="mainimg relative top-28 lg:absolute pt-3">
 
     
 
-<img src="./image/homeimg.jpeg" class=""alt="">
+<img class="rounded-xl" src="./image/artman.jpg" alt="">
 
   </div>
 
@@ -317,13 +319,24 @@
 
   <script src="./app.js"></script>
 
-  
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
 
 </body>
 
 
 <script>
+
+  
+    
+  
+
+
+
+var typed = new Typed('#element', {
+  strings: ['Backend Developer', 'Frontend Developer'],
+  typeSpeed: 100,
+});
 
 
 
