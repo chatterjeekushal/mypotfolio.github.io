@@ -121,6 +121,19 @@ function chak() {
 
 }
 
+let nighticon=document.querySelector(".nighticon");
+
+let bgmain=document.querySelector(".main");
+
+
+
+nighticon.addEventListener('click',function(){
+
+bgmain.classList.toggle("bg-black");
+bgmain.classList.toggle("text-white");
+
+})
+
 
 
 
