@@ -5,6 +5,8 @@
     text-decoration: none;
     list-style: none;
 
+    font-family: 'Poppins', sans-serif;
+
     
     
 }
@@ -12,6 +14,11 @@
     overflow: hidden;
     overflow-y: visible;
     
+}
+
+
+.mainmedia a{
+    z-index:100;
 }
 
 
@@ -244,6 +251,46 @@ display: none;
     z-index: 250;
 }
 
+
+.text{
+    
+    width:90%;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+}
+
+.imgabout{
+    
+    position: absolute;
+top:47rem;
+left:3rem;
+}
+
+.slate{
+    
+    
+    margin-left: 15rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:768px) and (min-width:768px) {
     
     .brand h2{
@@ -386,16 +433,12 @@ margin-left: 2rem;
         
     }
 
-    .maintext h1{
-        text-align: center;
-        
-        padding-right: 1rem;
-        
-    }
+    
 
     .maintext p{
         margin-top: 1.1rem;
         margin-right: 3rem;
+    
         
     
     }
@@ -459,6 +502,14 @@ width:60%;
     right:3rem;
     
 }
+
+.bgvic{
+
+background: black;
+    color:white;
+}
+
+
 
 }
 
