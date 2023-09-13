@@ -1,11 +1,14 @@
 
+
+
 *{
     margin:0px;
     padding:0px;
     text-decoration: none;
     list-style: none;
 
-    font-family: 'Poppins', sans-serif;
+
+    
 
     
     
@@ -144,6 +147,7 @@ nav ul li a:hover{
 
     font-size: 1.1rem;
     cursor: pointer;
+    
 }
 
 
@@ -272,6 +276,7 @@ left:3rem;
     margin-left: 15rem;
     
 }
+
 
 
 
@@ -508,6 +513,15 @@ width:60%;
 background: black;
     color:white;
 }
+
+.about{
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+
+
+
 
 
 
