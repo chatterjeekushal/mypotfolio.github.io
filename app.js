@@ -123,16 +123,21 @@ function chak() {
 
 let nighticon=document.querySelector(".nighticon");
 
-let bgmain=document.querySelector(".main");
+let bgmain=document.querySelectorAll("section")
 
 
+bgmain.forEach(section => {
 
+
+  
 nighticon.addEventListener('click',function(){
 
-bgmain.classList.toggle("bg-black");
-bgmain.classList.toggle("text-white");
-
-})
+  section.classList.toggle("bg-black");
+  section.classList.toggle("text-white");
+  
+  })
+  
+});
 
 
 
