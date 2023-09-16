@@ -1501,6 +1501,42 @@ video {
     top: 107rem;
   }
 
+  .max-sm\:top-\[100rem\] {
+    top: 100rem;
+  }
+
+  .max-sm\:top-\[103rem\] {
+    top: 103rem;
+  }
+
+  .max-sm\:top-\[105rem\] {
+    top: 105rem;
+  }
+
+  .max-sm\:top-\[108rem\] {
+    top: 108rem;
+  }
+
+  .max-sm\:top-\[1010rem\] {
+    top: 1010rem;
+  }
+
+  .max-sm\:top-\[109rem\] {
+    top: 109rem;
+  }
+
+  .max-sm\:top-\[110rem\] {
+    top: 110rem;
+  }
+
+  .max-sm\:top-\[115rem\] {
+    top: 115rem;
+  }
+
+  .max-sm\:top-\[114rem\] {
+    top: 114rem;
+  }
+
   .max-sm\:ml-2 {
     margin-left: 0.5rem;
   }
