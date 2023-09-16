@@ -76,13 +76,23 @@ nav ul li{
     transition: all 0.5s ease-in;    
 }
 
-nav ul li :hover{
+nav ul li::after{
 
-    border:1px solid  #aca9a998;
-    border-bottom-color: black;
+content: "";
+width:100%;
+height: 0.4vh;
+background:black;
+display: block;
+    transform: scale(0);
+    transition: all 0.5s ease-in;
+}
 
+nav ul li:hover::after{
+
+    transform: scale(1);
     
 }
+
 
 nav ul li a{
 
@@ -266,7 +276,7 @@ display: none;
 .imgabout{
     
     position: absolute;
-top:47rem;
+top:46.5rem;
 left:3rem;
 }
 
@@ -275,14 +285,21 @@ left:3rem;
     
     margin-left: 15rem;
     border-bottom: 0.8rem solid rgb(255, 145, 0);
+    height: 80vh;
     
     
 }
+
 .btn1{
-    z-index:300;
     position: relative;
-    
+    cursor: pointer;
+    z-index: 300;
 }
+
+.imgabout{
+    width: 30%;
+}
+
 
 
 
@@ -529,10 +546,29 @@ background: black;
     flex-direction: column-reverse;
 }
 
+.slate{
+    height:3vh;
+    margin-right: 27rem;
+    height: 59vh;
+    margin-top: 3.5rem;
+}
 
+.imgabout img{
+    width:90%;
+    
+    height: 50vh;
+    
+}
 
+.imgabout{
+    width: 100%;
+    
+    width: 70%;
+}
 
-
+.btn2{
+    width:15%;
+}
 
 
 }

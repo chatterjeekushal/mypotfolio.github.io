@@ -77,16 +77,16 @@
   <header>
 
 
-    <div class="hambargar lg:hidden">
+    <div class="hambargar lg:hidden max-sm:ml-3">
 
-<img src="./image/hamburger.png" alt="">
+<img src="./image/hamburger.png" class="max-sm:w-12" alt="">
 
     </div>
 
 
     <nav class="">
 
-      <span class="cursor-pointer w-10 mr-4 ml-4 xl:w-20"><img src="./image/my logo1.jpeg" alt=""></span>
+      <span class="cursor-pointer w-10 mr-4 ml-4 xl:w-20 max-sm:ml-2 max-sm:w-8"><img src="./image/my logo1.jpeg" alt=""></span>
 
       <div class="brand">
 
@@ -106,8 +106,8 @@
       </ul>
 
 
-      <div class="nighticon ml-4 w-12 max-md:w-9">
-<img src="./image/nighticon.png" alt="" srcset="">
+      <div class="nighticon ml-4 w-12 max-md:w-9 max-sm:w-8">
+<img src="./image/nighticon.png" class="" alt="" srcset="">
       </div>
 
 
@@ -313,10 +313,14 @@
 
 <section class="about  lg:flex items-center py-16 h-auto">
 
-  <div class="slate lg:w-[30%] h-[80vh] bg-red-900 xl:ml-72">
+  <div class="slate max-sm:bg-red-700 w-[30%] lg:w-[30%] bg-red-900 xl:ml-72">
 
-  <div class="imgabout lg:absolute w-[30%] h-[70vh] xl:top-[75rem]">
-<img src="./image/artman.jpg" class="lg:w-[100%] h-[70vh] rounded-2xl" alt="">
+  <div class="imgabout max-sm:top-[107rem] lg:absolute h-[70vh] xl:top-[75rem]">
+
+
+
+<img src="./image/aboutme.jpg" class="lg:w-[100%] h-[70vh] rounded-2xl max-sm:h-96 absolute" alt="">
+
 
   </div>
 
@@ -326,11 +330,11 @@
 
   <div class="text lg:flex flex-col justify-center">
 
-<h1 class="capitalize xl:text-6xl">about <span class="bg-orange-400">me</span></h1>
+<h1 class="capitalize xl:text-6xl max-sm:text-5xl">about <span class="bg-orange-400">me</span></h1>
 
 
 
-<p class="xl:text-xl mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quibusdam quam rerum id sunt exercitationem aliquam expedita animi impedit, eligendi ratione accusantium iste architecto consequatur dolores? Dolore obcaecati illum dolorem?</p>
+<p class="max-sm:text-justify pt-7 xl:text-xl mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quibusdam quam rerum id sunt exercitationem aliquam expedita animi impedit, eligendi ratione accusantium iste architecto consequatur dolores? Dolore obcaecati illum dolorem?</p>
 
 
 <p class="xl:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus officiis harum quae consequatur vero perferendis voluptates, labore ad minima.</p>
@@ -340,8 +344,11 @@
 
 <div class="btngroup">
 
-  <a href="https://tailwindcss.com/docs/hover-focus-and-other-states"target="contact"><button class="btn1 bg-black hover:bg-red-950  focus:bg-black cursor-pointer capitalize text-white lg:p-2 text-xl rounded-xl xl:text-3xl p-3"><i class="bi bi-telegram"></i>  Contact me</button></a>
-  <button class=" btn1 border-2 cursor-pointer border-black lg:w-10 h-11 ml-5  xl:w-16 mt-10"><i class="bi bi-file-person"></i></button>
+  <a href="https://tailwindcss.com/docs/hover-focus-and-other-states"target="contact"><button class="btn1 cursor-pointer hover:bg-red-950 bg-black  focus:bg-black capitalize text-white lg:p-2 text-xl rounded-xl xl:text-3xl p-3"><i class="bi bi-telegram"></i>  Contact me</button></a>
+
+
+
+  <button class=" btn1 btn2 border-2 cursor-pointer border-black lg:w-10 h-11 ml-5  xl:w-16 mt-10"><i class="bi bi-file-person"></i></button>
 
 </div>
 
