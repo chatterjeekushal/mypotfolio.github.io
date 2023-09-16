@@ -300,6 +300,9 @@ left:3rem;
 .imgabout{
     width: 30%;
 }
+.mainimg{
+    margin-right: 3rem;
+}
 
 
 
@@ -410,7 +413,7 @@ margin-left: 2rem;
 
 .mainimg{
     position: absolute;
-    left:55%;
+    left:52%;
     top:18%;
 }
 .hi{
