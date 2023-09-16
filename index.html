@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="output.css">
 
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -313,7 +317,7 @@
 
 <section class="about  lg:flex items-center py-16 h-auto">
 
-  <div class="slate max-sm:bg-red-700 w-[30%] lg:w-[30%] bg-red-900 xl:ml-72">
+  <div class="slate max-sm:bg-red-700 w-[30%] lg:w-[30%] bg-red-900 xl:ml-72" data-aos="fade-right">
 
   <div class="imgabout max-sm:top-[114rem] lg:absolute h-[70vh] xl:top-[75rem]">
 
@@ -328,7 +332,7 @@
 
 
 
-  <div class="text lg:flex flex-col justify-center">
+  <div class="text lg:flex flex-col justify-center" data-aos="fade-right">
 
 <h1 class="capitalize xl:text-6xl max-sm:text-5xl">about <span class="bg-orange-400">me</span></h1>
 
@@ -391,6 +395,20 @@
   <script src="./app.js"></script>
 
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+    {
+
+      offset:400,
+      duration:1000
+    }
+    
+    );
+  </script>
 
 
 </body>
