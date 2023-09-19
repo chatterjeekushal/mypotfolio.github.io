@@ -5,6 +5,7 @@ let tag=document.querySelector(".navbtn");
 let show=document.querySelector(".popupwraper")
 
 
+let aboutbtn=document.querySelector(".btngroup");
     
         
 
@@ -19,11 +20,26 @@ let close=document.querySelector(".close")
 tag.addEventListener('click',function(){
 
     show.classList.add("opacity-100");
+
+    if(aboutbtn.classList.contains("hidden")){
+
+
+
+      aboutbtn.classList.remove("hidden");
+    }
+
+    else{
+
+      aboutbtn.classList.add("hidden");
+    }
+
+    
 });
 
 close.addEventListener('click',function(){
 
 show.classList.remove("opacity-100");
+
 
 });
 
@@ -138,6 +154,11 @@ nighticon.addEventListener('click',function(){
   })
   
 });
+
+
+
+
+
 
 
 

@@ -174,15 +174,18 @@ nav ul li a:hover{
     align-items:center;
     position: fixed;
     
-    opacity: 0;
+    opacity:0;
     transition: all 0.5s ease;
-    z-index: 100;
+    z-index:400;
+
 }
 
 .popupwraper .card{
 
     width:60%;
     height: auto;
+    
+
 }
 
 .close{
@@ -291,11 +294,14 @@ left:3rem;
     
 }
 
-.btn1{
-    position: relative;
+.btngroup{
+    position:relative;
     cursor: pointer;
-    z-index: 300;
+    z-index:400;
+    
+    
 }
+
 
 .imgabout{
     width: 30%;
@@ -304,7 +310,9 @@ left:3rem;
     margin-right: 3rem;
 }
 
-
+.about{
+    background-color:#D8D8D8;
+}
 
 
 
@@ -447,7 +455,7 @@ margin-left: 2rem;
 }
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width:480px){
 
 
 
@@ -548,13 +556,14 @@ background: black;
 .about{
     display:flex;
     flex-direction: column-reverse;
+
 }
 
 .slate{
     height:3vh;
     margin-right: 27rem;
     height: 50vh;
-    margin-top: 3.5rem;
+    margin-top:3.5rem;
 }
 
 .imgabout img{
