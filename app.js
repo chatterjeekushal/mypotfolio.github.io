@@ -41,6 +41,19 @@ close.addEventListener('click',function(){
 show.classList.remove("opacity-100");
 
 
+if(aboutbtn.classList.contains("hidden")){
+
+
+
+  aboutbtn.classList.remove("hidden");
+}
+
+else{
+
+  aboutbtn.classList.add("hidden");
+}
+
+
 });
 
 
