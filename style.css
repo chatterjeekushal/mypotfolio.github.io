@@ -321,6 +321,15 @@ left:3rem;
 }
 
 
+.servicecard1{
+    border:1px solid blue
+}
+
+.servicecard1{
+    width:100%;
+}
+
+
 
 
 
@@ -457,7 +466,7 @@ margin-left: 2rem;
 }
 
 
-@media only screen and (max-width:480px) and (min-width:320px){
+@media only screen and (max-width:480px){
 
 
 
@@ -596,7 +605,7 @@ background: black;
 
 .mobileabout{
     display: block;
-    background:#9594947e;
+    background:#9594947e
 }
 
 .mobileabout img{
@@ -606,6 +615,10 @@ background: black;
     border-radius: 1rem;
     height:auto;
 }
+
+
+
+
 
 }
 
