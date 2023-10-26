@@ -541,6 +541,87 @@ left:3rem;
 }
 
 
+.cardcontaner {
+    background-color:white;
+    width: 45vw;
+    margin-top:1rem;
+
+    border-radius: 15px;
+
+  }
+
+  .img{
+    width:95%;
+    height:40vh;
+
+    margin:1rem
+      auto;
+
+    background: url(https://images.pexels.com/photos/18722962/pexels-photo-18722962/free-photo-of-a-camel-pulling-a-cart-with-a-red-canopy.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 15px;
+  }
+
+  .textbtn{
+
+    margin:1.5rem 1rem;
+  }
+  .textbtn span{
+    border:1px solid black;
+    font-size: 1.3rem;
+    margin-left: 1.3rem;
+    padding:0.3rem;
+
+    cursor: pointer;
+
+    border-radius: 15px;
+  }
+
+  .cardtext{
+
+
+    margin-left:0.7rem;
+  }
+  .cardtext p{
+
+    margin-top: 1.5rem;
+
+
+    line-height: 1.6;
+
+  }
+
+  .mainbtn{
+
+    display: flex;
+
+    justify-content: center;
+
+
+
+    align-items: center;
+
+    margin:1.5rem;
+
+  }
+
+  .btn{
+    font-size: 1.2rem;
+    padding:0.7rem;
+
+
+    border-radius: 15px;
+    color:deepskyblue;
+    background-color:lightskyblue;
+
+    cursor: pointer;
+    outline:none;
+    border:none;
+  }
+
+
 
 
 

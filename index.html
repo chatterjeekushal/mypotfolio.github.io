@@ -69,11 +69,11 @@
 
       <ul class=" resul space-y-8  capitalize  flex-col justify-center items-center border-blue-700  cursor-pointer">
         <li></li>
-        <li class="text-2xl ml-10 "><a href="https://tailwindcss.com/docs/installation/play-cdn"
+        <li class="text-2xl ml-10 "><a href=""
             class="no-underline text-white hover:text-black">home</a></li>
-        <li class="text-2xl ml-10"><a href="" class="no-underline text-white ">about</a></li>
-        <li class="text-2xl  ml-10"><a href="" class="no-underline text-white ">service</a></li>
-        <li class="text-2xl ml-10"><a class="no-underline text-white hover:text-black" href="">Skills</a></li>
+        <li class="text-2xl ml-10"><a href="#about" class="no-underline text-white ">about</a></li>
+        <li class="text-2xl  ml-10"><a href="#service" class="no-underline text-white ">service</a></li>
+        <li class="text-2xl ml-10"><a class="no-underline text-white hover:text-black" href="#myskills">My Skills</a></li>
 
 
 
@@ -111,15 +111,15 @@
 
       <div class="brand">
 
-        <h2 class="text-2xl lg:text-2xl xl:text-5xl">kushal,s portfolio</h2>
+        <h2 class="text-2xl lg:text-2xl xl:text-5xl">kushal's portfolio</h2>
 
       </div>
 
       <ul class="hidden lg:flex">
         <li class="xl:px-12"><a href="" class="xl:text-3xl">home</a></li>
-        <li class="xl:px-12"><a href="" class="xl:text-3xl">about</a></li>
-        <li class="xl:px-12"><a href="" class="xl:text-3xl">service</a></li>
-        <li class="xl:px-12"><a href="" class="xl:text-3xl">My Skills</a></li>
+        <li class="xl:px-12"><a href="#about" class="xl:text-3xl">about</a></li>
+        <li class="xl:px-12"><a href="#service" class="xl:text-3xl">service</a></li>
+        <li class="xl:px-12"><a href="#myskills" class="xl:text-3xl">My Skills</a></li>
 
 
 
@@ -336,7 +336,7 @@
 
 
 
-  <section class="about lg:flex items-center py-16 h-auto">
+  <section class="about  lg:flex items-center py-16 h-auto" id="about">
 
     <div class="slate max-sm:w-[30%] lg:w-[30%] bg-red-900 xl:ml-72" data-aos="fade-right">
 
@@ -411,13 +411,13 @@
 
 
   <section
-    class="service max-sm: flex flex-column justify-center items-center lg:flex lg:justify-evenly lg:items-center">
+    class="service max-sm: flex flex-column justify-center items-center lg:flex lg:justify-evenly lg:items-center" id="service">
 
 
 
-    <div class="sevicehading text-center max-sm:mt-14 lg:mt-16">
+    <div class="sevicehading text-center max-sm:mt-14 lg:mt-10">
 
-      <h1 class="max-sm:text-5xl lg:text-6xl">Services</h1>
+      <h1 class="max-sm:text-5xl lg:text-6xl">Serv<span class="bg-orange-400">ices</span></h1>
 
     </div>
 
@@ -425,7 +425,7 @@
 
 
 
-    <div class="servicecontaner  max-sm: w-[90%] mt-10  lg:w-[100%] lg:flex lg:border-2 lg:mt-16">
+    <div class="servicecontaner  max-sm: w-[90%] mt-10  lg:w-[100%] lg:flex lg:border-2 lg:mt-10">
 
 
 
@@ -436,19 +436,19 @@
 
 
 
-      <div class="servicecard1 max-sm:border-8 border-black lg:ml-5 lg:w-[100%] lg:border-8 lg:border-black">
+      <div class="servicecard1 max-sm:border-8 border-black lg:ml-5 lg:w-[90%] lg:border-8 lg:border-black"data-aos="zoom-in-up">
 
 
-        <div class="servicelogo max-sm:pt-36 pl-10 lg:pt-36 lg:pl-10">
+        <div class="servicelogo max-sm:pt-24 pl-10 lg:pt-24 lg:pl-10">
 
-          <img src="./image/facebook.png" alt="" srcset="">
+          <i class="bi bi-file-earmark-code-fill" style="font-size:2rem;"></i>
 
         </div>
 
 
         <h3 class="max-sm:pl-10 mb-10 font-bold lg:pl-10">Freelancer</h3>
 
-        <p class="max-sm:pl-10 text-justify pr-10 lg:pl-10"> As a freelance web developer, my journey has been all about turning ideas into digital realities. I've had the privilege of working on a diverse range of projects, each with its unique challenges and opportunities. Today, I invite you to explore my web development portfolio and discover the exciting world of creativity, innovation, and seamless user experiences</p>
+        <p class="max-sm:pl-10 text-justify pr-10 lg:pl-5"> As a freelance web developer, my journey has been all about turning ideas into digital realities. I've had the privilege of working on a diverse range of projects, each with its unique challenges and opportunities. Today, I invite you to explore my web development portfolio and discover the exciting world of creativity, innovation, and seamless user experiences</p>
 
       </div>
 
@@ -468,12 +468,12 @@
 
 
 
-      <div class="servicecard1 max-sm:border-8 border-black lg:ml-10 lg:w-[100%] lg:border-8 lg:border-black">
+      <div class="servicecard1 max-sm:border-8 border-black lg:ml-10 lg:w-[100%] lg:border-8 lg:border-black" data-aos="zoom-in-up">
 
 
-        <div class="servicelogo max-sm:pt-36 pl-10 lg:pt-36 lg:pl-10">
+        <div class="servicelogo max-sm:pt-24 pl-10 lg:pt-24 lg:pl-10">
 
-          <img src="./image/facebook.png" alt="" srcset="">
+          <i class="bi bi-code-square" style="font-size: 2rem;"></i>
 
         </div>
 
@@ -481,7 +481,7 @@
         <h3 class="max-sm:pl-10 mb-10 font-bold lg:pl-10">Web design
         </h3>
 
-        <p class="max-sm:pl-10 text-justify pr-10 lg:pl-10">Web design is where art and technology unite, and I consider it my mission to harmonize these elements into captivating online experiences. Whether it's creating a visually stunning website, ensuring seamless navigation, or optimizing for mobile responsiveness, I'm here to transform concepts into visually striking web solutions</p>
+        <p class="max-sm:pl-10 text-justify pr-10 lg:pl-5">Web design is where art and technology unite, and I consider it my mission to harmonize these elements into captivating online experiences. Whether it's creating a visually stunning website, ensuring seamless navigation, or optimizing for mobile responsiveness, I'm here to transform concepts into visually striking web solutions</p>
 
       </div>
 
@@ -495,28 +495,25 @@
 
 
 
-      <div class="servicecard1 max-sm:border-8 border-black lg:ml-10 lg:w-[100%] lg:border-8 lg:border-black lg:mr-5">
+      <div class="servicecard1 max-sm:border-8 border-black lg:ml-10 lg:w-[100%] lg:border-8 lg:border-black lg:mr-5" data-aos="zoom-in-up">
 
 
-        <div class="servicelogo max-sm:pt-36 pl-10 lg:pt-36 lg:pl-10">
+        <div class="servicelogo max-sm:pt-24 pl-10 lg:pt-24 lg:pl-10">
 
-          <img src="./image/facebook.png" alt="" srcset="">
+          <i class="bi bi-journal-code" style="font-size: 2rem;"></i>
 
         </div>
 
 
         <h3 class="max-sm:pl-10 mb-10 font-bold lg:pl-10">Template Design</h3>
 
-        <p class="max-sm:pl-10 text-justify pr-10 lg:pl-10"> I am thrilled to take you on a journey through the world of template design. As a freelance template designer, I've had the opportunity to create digital blueprints for a variety of projects, each a unique canvas for creativity and functionality. Allow me to provide you with a glimpse into my template design portfolio and the exciting possibilities it holds</p>
+        <p class="max-sm:pl-10 text-justify pr-10 lg:pl-5"> I am thrilled to take you on a journey through the world of template design. As a freelance template designer, I've had the opportunity to create digital blueprints for a variety of projects, each a unique canvas for creativity and functionality. Allow me to provide you with a glimpse into my template design portfolio and the exciting possibilities it holds</p>
 
       </div>
 
 
 
     </div>
-
-
-
 
   </section>
 
@@ -527,7 +524,7 @@
 
 
 
-  <section class="myskills max-sm:w-[100%] bg-[#F6F4EB]">
+  <section class="myskills max-sm:w-[100%] bg-[#F6F4EB]" id="myskills">
 
 
 
@@ -550,7 +547,7 @@
 
 
 
-      <div class="card1 active lg:rounded-xl">
+      <div class="card1 active lg:rounded-xl"data-aos="zoom-in-up">
 
         <div class="gridcardimg max-sm:w-[90%] max-sm:ml-5">
           <img src="./image/html2.png" alt="">
@@ -585,7 +582,7 @@
 
 
 
-      <div class="card2 active lg:rounded-xl">
+      <div class="card2 active lg:rounded-xl"data-aos="zoom-in-up">
 
         <div class="gridcardimg max-sm:w-[90%] max-sm:ml-5">
           <img src="./image/css2.png" alt="">
@@ -619,7 +616,7 @@
 
 
 
-      <div class="card3 active lg:rounded-xl">
+      <div class="card3 active lg:rounded-xl"data-aos="zoom-in-up">
 
         <div class="gridcardimg max-sm:w-[90%] max-sm:ml-5">
           <img src="./image/javascript2.avif" alt="">
@@ -655,7 +652,7 @@
 
 
 
-      <div class="card4 active lg:rounded-xl">
+      <div class="card4 active lg:rounded-xl"data-aos="zoom-in-up">
 
         <div class="gridcardimg max-sm:w-[90%] max-sm:ml-5">
           <img src="./image/bootstrap.webp" alt="">
@@ -687,7 +684,7 @@
 
 
 
-      <div class="card5 active lg:rounded-xl">
+      <div class="card5 active lg:rounded-xl"data-aos="zoom-in-up">
 
         <div class="gridcardimg max-sm:w-[90%] max-sm:ml-5">
           <img src="./image/tailwincss.webp" alt="">
@@ -720,7 +717,7 @@
 
 
 
-      <div class="card6 active lg:rounded-xl">
+      <div class="card6 active lg:rounded-xl"data-aos="zoom-in-up">
 
         <div class="gridcardimg max-sm:w-[90%] max-sm:ml-5">
           <img src="./image/nodejs.avif" alt="">
@@ -761,13 +758,13 @@
 
 
 
-  <section class="lg:contactme  w-[100%] min-h-[60vh] flex lg:mt-10">
+  <section class="lg:contactme  w-[100%] min-h-[60vh] flex lg:mt-10" id="contact">
 
     <div class="leftcontact w-[40%] lg:flex lg:flex-col lg:justify-end lg:items-end max-sm:hidden">
 
 
 
-      <div class="contactbox_left bg-[#dfdcdc] lg:relative lg:left-10 h-auto lg:top-24 max-sm:relative max-sm:top-40">
+      <div class="contactbox_left bg-[#dfdcdc] lg:relative lg:left-10 h-auto lg:top-24 max-sm:relative max-sm:top-40" data-aos="fade-left">
 
 
         <div class="left_contact_hading lg:relative lg:right-8 lg:pt-9">
@@ -845,7 +842,7 @@
         <input type="email" class="lg:w-[45vw] lg:mt-5 lg:h-[7vh] lg:rounded-lg max-sm:w-[90%] max-sm:ml-3 max-sm:h-[7.1vh] max-sm:rounded-lg" placeholder="Enter Your Email Address"
           name="emailid" required>
 
-        <textarea name="" id="" cols="40" rows="7" class="mt-5 max-sm:ml-4" class="lg:rounded-xl" placeholder="Write Your Message"
+        <textarea name="textarea" id="" cols="40" rows="7" class="mt-5 max-sm:ml-4" class="lg:rounded-xl" placeholder="Write Your Message"
           required>
 
 
@@ -959,7 +956,7 @@
     AOS.init(
       {
 
-        offset: 400,
+        offset: 300,
         duration: 1000
       }
 
