@@ -1627,16 +1627,12 @@ video {
     padding-left: 1.25rem;
   }
 
-  .max-sm\:pt-36 {
-    padding-top: 9rem;
+  .max-sm\:pt-24 {
+    padding-top: 6rem;
   }
 
   .max-sm\:pt-5 {
     padding-top: 1.25rem;
-  }
-
-  .max-sm\:pt-24 {
-    padding-top: 6rem;
   }
 
   .max-sm\:text-justify {
@@ -1868,10 +1864,6 @@ video {
 
   .lg\:pt-24 {
     padding-top: 6rem;
-  }
-
-  .lg\:pt-36 {
-    padding-top: 9rem;
   }
 
   .lg\:pt-4 {

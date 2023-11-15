@@ -172,43 +172,20 @@ bgmain.forEach(section => {
 
 // grid card animation
 
-
 let gridcard = document.querySelectorAll(".active");
-
 let dimco = document.querySelectorAll(".gridcardtext");
-
-console.log(dimco);
-
-
-console.log(gridcard);
-
-index=0;
 
 
 for (let i = 0; i < gridcard.length; i++) {
-
   gridcard[i].addEventListener("mouseenter", function (e) {
+    dimco[i].style.display = "block";
+  });
 
-
-
-    for (let k = 0; k < dimco.length; k++) {
-
-dimco[index].style.display="block";
-
-
-
-   }
-   index=index+1;
-   dimco.style.display="none";
-
-
-
-    
-  })
-
-
-
+  gridcard[i].addEventListener("mouseleave", function (e) {
+    dimco[i].style.display = "block";
+  });
 }
+
 
 
 
